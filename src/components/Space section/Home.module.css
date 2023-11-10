@@ -1,0 +1,165 @@
+
+
+.Headline1{
+  text-align:  center;
+    width: 22%;
+margin-top: 5px;
+}
+
+
+
+
+.Techspace {
+    height: 45vh;
+    width: 320px;
+    background-color: #E3E4FF;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    line-height: 15px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px; 
+    
+    }
+    
+.box {
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 45vh;
+    width: 320px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .overall {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center; /* or 'flex-start' if you want items at the top */
+    margin-top: 20px;
+  }
+  .box {
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 45vh;
+    width: 320px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .box:nth-child(1) {
+    background-color:  #E3E4FF /* Default color for the first box */
+  }
+  
+  .box:nth-child(2) {
+    background-color: #f2e0ac; /* Light yellow for the second box */
+  }
+  
+  .box:nth-child(3) {
+    background-color: #d1bcef; /* Light purple for the third box */
+  }
+  
+  .box:nth-child(4) {
+    background-color: #b7e4b7; /* Light green for the fourth box */
+  }
+  .box:nth-child(5) {
+    background-color: #f2e0ac; /* Light yellow for the second box */
+  }
+  .box:nth-child(6) {
+    background-color: #b7e4b7; /* Light green for the fourth box */
+  }
+    
+    /* .flexContainer {
+        display: flex;
+        justify-content: space-evenly;
+      } */
+      
+
+/* .image img {
+height: 105px;
+width: 115px;
+border-radius: 50%;
+background: #D5D6F5;
+margin-top: 8px;
+} */
+.image {
+  height: 105px;
+  width: 115px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #D5D6F5; /* default color, you can change it dynamically based on the JSON data */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+    .title{
+        color: black;
+        text-align: center;
+        line-height: 60px;
+    }
+.details p{
+    color: #7F8196;
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 17px;
+}
+    .combine{
+        display:flex;
+        justify-content: space-around;
+        /* gap: 89px; */
+        margin-bottom: 10px;
+    }
+
+
+.Icons{
+display: flex;
+
+}
+.group img{
+    width: 24px;
+    height: 27px;
+    margin-right: 5px;
+}
+
+.number{
+  
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 4px;
+
+}
+.community button{
+    border-radius: 20px;
+    padding: 6px 20px 6px 20px;
+    background: black;
+    color: white;
+    border: none;
+    /* margin-top: 5px; */
+}

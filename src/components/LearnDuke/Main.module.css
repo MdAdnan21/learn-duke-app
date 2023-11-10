@@ -1,0 +1,224 @@
+.mainCont {
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.navCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logoBox {
+    width: 80%;
+}
+
+.profile {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    font-size: 28px !important;
+}
+
+.profileBox {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(390deg, #FFA726 20% , #000 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerProfile{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconProfile{
+    font-size: 35px !important;
+    color: grey;
+}
+
+.lower {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.IconBox {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.8s ease-out;
+}
+
+.IconBox:hover{
+    color: #FFA726;
+    border-bottom: 3px solid #FFA726;
+}
+.active{
+    color: #FFA726;
+    border-bottom: 3px solid #FFA726;
+}
+
+.listCont{
+background-color: black;
+color: white;
+margin-top: 18px;
+line-height: 30px;
+}
+
+.upperLayer{
+display: flex;
+width: 50%;
+margin-left: 15px;
+padding-top: 5px;
+}
+
+.profileList{
+    height: 55px;
+    width: 55px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.title{
+display: flex;
+text-align: center;
+align-items: center;
+margin-left: 10px;
+font-weight: 500;
+}
+
+
+.descrip{
+width: 80%;
+color: #bbb;
+margin-left: 18px;
+margin-top: 12px;
+}
+
+.socialCont{
+display: flex;
+width: 90%;
+padding: 10px;
+justify-content: space-between;
+margin-top: 4px;
+
+}
+.IconCont{
+    display: flex;
+    margin-left: 10px;
+}
+
+.numbers{
+
+font-size: 18px;
+font-family: sans-serif;
+    text-align: center; 
+    align-items: center;
+    margin-left: 5px;
+}
+
+.buttonBox{
+display: flex;
+
+}
+
+.Join button{
+       border-radius: 13px;
+    padding: 4px 25px 5px 25px;
+    background: white;
+    color: black;
+    border: none;
+    font-weight: 900;
+    margin-right: 5px;
+}
+.Invite button{
+    border-radius: 13px;
+    padding: 4px 25px 5px 25px;
+    background: white;
+    color: #FFA726;
+    border: none;
+    font-weight: 900;
+    margin-right: 5px;
+ 
+}
+.profilePics{
+display:flex ;
+margin-left: 18px;
+}
+
+.imgBox img{
+    width: 40px;
+    height: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center right;
+        
+
+}
+
+.Numbpeople{
+    display: flex;
+    align-items: center;
+color: #bbb;
+font-size: 13px;
+font-weight: 700;
+}
+
+.bottomList{
+width: 100%;
+display: flex;
+justify-content: space-between;
+background-color: white;
+}
+
+.FeedBox{
+   display: flex-start; 
+   background-color:#FFA726 ;
+   text-align: center;
+   width: 30%;
+   font-weight: 600;
+   font-size: 17px;
+   font-family: sans-serif;
+}
+.TrendingBox{
+    width: 35%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #868686;
+    background: white;
+    text-align: center;
+}
+.MembersBox{
+  width: 35%;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #868686;
+    background: white;
+    text-align: center;
+}
